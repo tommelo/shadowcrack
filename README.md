@@ -47,3 +47,7 @@ python shadowcrack.py -p $'$6$VLr2CiTR$mltwV7.zGeocAoyqUIjHZKXMn8gzRqoszAu/DAK2.
 [+] Password cracked: a1c2 
 
 ```
+
+###Todo
+
+* Parse shadow file, enumerate users and passwords cracked
