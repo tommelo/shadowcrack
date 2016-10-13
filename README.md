@@ -50,4 +50,4 @@ python shadowcrack.py -p $'$6$VLr2CiTR$mltwV7.zGeocAoyqUIjHZKXMn8gzRqoszAu/DAK2.
 
 ###Todo
 
-* Parse shadow file, enumerate users and passwords cracked
+* Parse shadow file, enumerate users and cracked passwords
