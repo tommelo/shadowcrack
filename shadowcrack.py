@@ -95,7 +95,7 @@ parser.add_argument("hash", nargs="?", help="The hashed password")
 parser.add_argument("-s", "--shadow", metavar="", required=False, help="The /etc/shadow file")
 parser.add_argument("-w", "--word-list", metavar="", required=True, help="The word list file")
 parser.add_argument("-v", "--verbose", action="store_true", help="Enables the verbose mode")
-parser.add_argument("--hashes-only", action="store_true", help="Do not parse the shadow file")
+parser.add_argument("--hashes-only", action="store_true", help="Shadow file contains only hashes")
 parser.add_argument("--version", action="version", version=VERSION)
 
 # log format:
