@@ -170,7 +170,7 @@ def filter_shadow_file(path, is_hashes_only):
     return accounts
 
 def crack_password(account, word_list, status_bar, password_count):
-    """ fadfadsff """
+    """ Cracks the shadowed password """
 
     shadowed = account.split(":")
     username = shadowed[0]
@@ -203,6 +203,8 @@ def crack_password(account, word_list, status_bar, password_count):
             status_bar.update(1)
 
 def flush_outuput():
+    """Flushes the result to the output"""
+
     if len(cracked_passwords) == 0:
         progress_bar.write(LOG_FORMAT.format(Fore.YELLOW, "[!]", Fore.RESET, "No password could be cracked"))
     else:
